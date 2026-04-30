@@ -83,4 +83,27 @@ int main() {
    Space Complexity: O(V)
 
    Note: Can detect negative weight cycles
+
+Start
+
+Display menu
+
+Read user choice
+
+If choice = 1:
+a) Input number of vertices and edges
+b) Read edges (u, v, weight)
+
+If choice = 2:
+a) Input source vertex
+b) Relax all edges V-1 times to find shortest paths
+c) Iterate one more time to check for negative weight cycles
+d) Display shortest distances, or display warning if negative cycle is detected
+
+If choice = 3:
+a) Exit program
+
+Repeat steps 2 to 6 until exit is selected
+
+Stop
 */
