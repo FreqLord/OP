@@ -77,4 +77,27 @@ int main() {
       Time Complexity: O(E log V)
 
    Space Complexity: O(V)
+
+   Start
+
+Display menu
+
+Read user choice
+
+If choice = 1:
+a) Input number of vertices and edges
+b) Initialize graph with 0
+c) Read edges (u, v, weight) and populate graph
+
+If choice = 2:
+a) Input source vertex
+b) Run Dijkstra logic to calculate shortest paths
+c) Display shortest distances from the source
+
+If choice = 3:
+a) Exit program
+
+Repeat steps 2 to 6 until exit is selected
+
+Stop
 */
