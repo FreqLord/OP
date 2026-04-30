@@ -87,4 +87,25 @@ int main() {
 /* 9. KMP (KNUTH-MORRIS-PRATT)
    Time Complexity: O(n + m)
    Space Complexity: O(m)  [LPS array]
+
+Start
+
+Display menu
+
+Read user choice
+
+If choice = 1:
+a) Input the text
+b) Input the pattern
+
+If choice = 2:
+a) Call kmp(text, pattern) (which builds the LPS array and searches)
+b) Display the index where the pattern is found, or "Pattern not found"
+
+If choice = 3:
+a) Exit program
+
+Repeat steps 2 to 6 until exit is selected
+
+Stop   
 */
