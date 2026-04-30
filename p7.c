@@ -76,4 +76,26 @@ int main() {
 /* 7. N-QUEENS (BACKTRACKING)
    Time Complexity: O(2^n)  [Exponential]
    Space Complexity: O(n) (recursion stack)
+
+Start
+
+Display menu
+
+Read user choice
+
+If choice = 1:
+a) Input value of N (board size)
+
+If choice = 2:
+a) Check if N is valid
+b) Call solve(0) to start placing queens
+c) If queens are placed successfully, display board configurations
+d) If no solution exists, display "No solution exists"
+
+If choice = 3:
+a) Exit program
+
+Repeat steps 2 to 6 until exit is selected
+
+Stop
 */
