@@ -72,4 +72,27 @@ int main() {
    Space Complexity: O(m * n)
 
    Optimization: Space can be reduced to O(min(m,n))
+
+Start
+
+Display menu
+
+Read user choice
+
+If choice = 1:
+a) Input first string (X)
+b) Input second string (Y)
+
+If choice = 2:
+a) Build DP table to compute LCS lengths
+b) Display the length of the LCS
+c) Backtrack through the DP table to construct the LCS string
+d) Display the LCS string
+
+If choice = 3:
+a) Exit program
+
+Repeat steps 2 to 6 until exit is selected
+
+Stop
 */
