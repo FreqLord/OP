@@ -61,4 +61,25 @@ int main() {
 /* 2. MERGE SORT
    Time Complexity: O(n log n)  [Best = Avg = Worst]
    Space Complexity: O(n)
+
+Start
+
+Display menu
+
+Read user choice
+
+If choice = 1:
+a) Input size of array
+b) Read array elements
+
+If choice = 2:
+a) Call mergeSort(arr, 0, n - 1)
+b) Display the sorted array
+
+If choice = 3:
+a) Exit program
+
+Repeat steps 2 to 6 until exit is selected
+
+Stop
 */
