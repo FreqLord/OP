@@ -62,4 +62,26 @@ int main() {
    Average Case: O(log n)
    Worst Case: O(log n)
    Space Complexity: O(1) (iterative)
+
+
+Start
+
+Display menu
+
+Read user choice
+
+If choice = 1:
+a) Input number of elements (n)
+b) Read array elements
+
+If choice = 2:
+a) Call minMax(arr, 0, n - 1, &min, &max)
+b) Display minimum and maximum values
+
+If choice = 3:
+a) Exit program
+
+Repeat steps 2 to 6 until exit is selected
+
+Stop
 */
