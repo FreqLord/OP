@@ -53,4 +53,26 @@ int main() {
    Best Case: O(n)
    Worst Case: O(n * m)
    Space Complexity: O(1)
+
+Start
+
+Display menu
+
+Read user choice
+
+If choice = 1:
+a) Input the text
+b) Input the pattern
+
+If choice = 2:
+a) Loop through the text to check for matching pattern characters
+b) If a match is found, display the starting index
+c) If the pattern is nowhere to be found, display "Pattern not found"
+
+If choice = 3:
+a) Exit program
+
+Repeat steps 2 to 6 until exit is selected
+
+Stop
 */
